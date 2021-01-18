@@ -178,7 +178,7 @@ declare module "node-sql-2" {
 		functions: {
 				LOWER<Name>(c:Column<Name, string>):Column<Name, string>
 		}
-		array(arr:T[]):BinaryNode
+		array<T>(arr:T[]):BinaryNode
 		
 	}
 
